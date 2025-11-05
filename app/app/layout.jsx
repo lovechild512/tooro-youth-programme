@@ -1,11 +1,12 @@
-export const metadata = { title: "Tooro Youth Programme" };
+export const metadata = {
+  title: "Tooro Youth Programme",
+  description: "Empowering youth through skills, culture, and leadership in the Tooro region.",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html>
-      <body style={{ padding: "40px", fontSize: "24px" }}>
-        {children}
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }
